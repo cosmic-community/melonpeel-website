@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #fef2f4 0%, #f1f9f3 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #e74c6f 0%, #3f9061 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
